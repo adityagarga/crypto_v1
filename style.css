@@ -7,6 +7,7 @@
     display: flex;
     flex-wrap: wrap;
     background-color: rgb(25, 214, 41);
+    font-size: 100pt;
   }
   
   .card {
