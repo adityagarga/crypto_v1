@@ -1,28 +1,12 @@
-#root {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: rgb(25, 214, 41);
-    font-size: 100pt;
-  }
-  
-  .card {
-    margin: 1rem;
-    border: 1px solid gray;
-  }
-  
-  @media screen and (min-width: 600px) {
-    .card {
-      flex: 1 1 calc(50% - 2rem);
-    }
-  }
-  
-  @media screen and (min-width: 900px) {
-    .card {
-      flex: 1 1 calc(33% - 2rem);
-    }
-  }
+*{
+  margin: 0;
+  padding:  0;
+}
+
+#crypto-price{
+  text-align: center;
+  padding:  10%;
+  background-color : rgb(0, 255, 0);
+  font-size:  8vw;
+  font-family: Dosis, serif;
+}
